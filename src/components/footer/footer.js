@@ -4,7 +4,7 @@ import SocialIcons from "../socialicons/socialicons.js"
 import Links from "../links/links.js"
 const Footer = (props) => {
   return (
-    <div>
+    <div className="footer-wrapper">
       <SocialIcons />
       <Links />
     </div>

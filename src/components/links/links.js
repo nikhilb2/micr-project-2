@@ -3,13 +3,12 @@ import "./links.css"
 import { Nav } from 'react-bootstrap'
 const Links = (props) => {
   return (
-    <div className="link">
-      <div><Nav.Link href="#">Link1</Nav.Link></div>
-      <Nav.Link href="#">Link1</Nav.Link>
-      <Nav.Link href="#">Link1</Nav.Link>
-      <Nav.Link href="#">Link1</Nav.Link>
-      <Nav.Link href="#">Link1</Nav.Link>
-  </div>
+    <Nav className="ml-auto nav-wrapper">
+      <Nav.Link href="#">Privacy</Nav.Link>
+      <Nav.Link href="#">Sales Term</Nav.Link>
+      <Nav.Link href="#">Terms Of Service</Nav.Link>
+      <Nav.Link href="#">Support</Nav.Link>
+  </Nav>
   )
 }
 
