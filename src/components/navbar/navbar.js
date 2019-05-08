@@ -12,8 +12,11 @@ const NavigationBar = (props) => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
 
-          <div ><Nav.Link style={{color: 'skyblue'}} href="#home" >Home</Nav.Link></div>
-          <Nav.Link style={{color: 'white'}} href="#link">Link</Nav.Link>
+          <div ><Nav.Link style={{color: 'skyblue'}} href="#home" >Overview</Nav.Link></div>
+          <Nav.Link style={{color: 'white'}} href="#link">Tech Specs</Nav.Link>
+          <Nav.Link style={{color: 'white'}} href="#link">Compare</Nav.Link>
+          <Nav.Link style={{color: 'white'}} href="#link">Switch To Pixel</Nav.Link>
+  
 
         </Nav>
       </Navbar.Collapse>

@@ -1,11 +1,35 @@
 .banner {
   background-image: url('../../banner.jpg');
-  background-size:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
-  position: relative;
+  
 }
 
-.jumbo2
+.jumbo2{
+	height: 100vh;
+	text-align: center;
+}
+
+.jumbo2 div {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.jumbo2 h2
  {
-   
+	
+   color: #777;
+  margin-top: 2rem;
  }
+
+.jumbo2 button {
+
+	display: inline-block;
+}
+
+.logo {
+  width: 2rem
+}
