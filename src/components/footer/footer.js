@@ -1,13 +1,12 @@
 import React from 'react'
 import "./footer.css"
+import SocialIcons from "../socialicons/socialicons.js"
+import Links from "../links/links.js"
 const Footer = (props) => {
   return (
     <div>
-      <div className="d-flex justify-content-between"">
-        <div>First</div>
-        <div>Second</div>
-        <div>First</div>
-      </div>
+      <SocialIcons />
+      <Links />
     </div>
   )
 }
